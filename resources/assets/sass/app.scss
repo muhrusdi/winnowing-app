@@ -1,0 +1,39 @@
+@import './node_modules/materialize-css/sass/materialize.scss';
+
+#globalnav {
+    a {
+        font-size: 16px;
+    }
+}
+
+.main {
+    .m-source {
+        .tabs {
+            background: #e4e4e4;
+        }
+    }
+}
+
+.btn {
+    margin-top: 40px;
+}
+
+.result {
+
+    padding-bottom: 70px !important;
+    h3 {
+        font-size: 17px;
+    }
+    ul {
+        li {
+            label {
+                font-size: 15px;
+                color: #333;
+            }
+        }
+    }
+}
+
+select {
+    display: block !important;
+}
